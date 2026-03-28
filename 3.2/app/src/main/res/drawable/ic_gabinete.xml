@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="56dp"
+    android:viewportWidth="48"
+    android:viewportHeight="56">
+
+    <!-- El Pin (Sombra/Contorno inferior) -->
+    <path
+        android:fillColor="#5D537B"
+        android:pathData="M24,56 L16,40 L32,40 Z" />
+
+    <!-- El Rectángulo Principal (Cuerpo del Gabinete) -->
+    <path
+        android:fillColor="#F0D9C1"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M8,8 Q8,4 12,4 L36,4 Q40,4 40,8 L40,36 Q40,40 36,40 L12,40 Q8,40 8,36 Z" />
+
+    <!-- Cajón Superior -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M8,18 L40,18" />
+
+    <!-- Perillas/Jaladores -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M22,11 h4 v2 h-4 z M22,27 h4 v2 h-4 z" />
+</vector>
