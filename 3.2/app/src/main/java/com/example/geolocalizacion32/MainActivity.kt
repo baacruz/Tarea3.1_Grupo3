@@ -500,12 +500,6 @@ fun BottomNavigationBar(navController: NavController, currentRoute: String) {
             icon = { Icon(Icons.Default.List, "Lista") },
             label = { Text("Lista") }
         )
-        NavigationBarItem(
-            selected = false,
-            onClick = { },
-            icon = { Icon(Icons.Default.Person, "Perfil") },
-            label = { Text("Perfil") }
-        )
     }
 }
 
